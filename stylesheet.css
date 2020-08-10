@@ -1,0 +1,348 @@
+* {
+	box-sizing:border-box;
+}
+
+
+body {
+	margin: 0;
+	font-family:"Lucida Grande";
+}
+a {
+	text-decoration:none;
+}
+.container {
+	max-width: 1170px;
+	width:100%
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2018/01/12/1188908/e742c13b5e21f8ac949b7e429e947b61.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.signup {
+	background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+	position:fixed;
+  top:0;
+  z-index:10;
+}
+.logo {
+  width: 124px;
+
+
+}
+
+.menu {
+	width: 124px;
+
+}
+
+.header-right{
+	float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.news-wrapper {
+  background-image: url(https://statics.sportskeeda.com/editor/2019/06/318e9-15611111738749-800.jpg);
+	padding:180px 0 100px 0;
+	background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.news-wrapper h1 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+
+.News h1 {
+  color: white;
+	font-size:24px;
+	margin-bottom:8px;
+	letter-spacing:4px ;
+}
+
+.News p {
+  margin-bottom: 3px;
+	color:white;
+	font-size:22px;
+}
+
+.Newsbtn-wrapper {
+  margin: 20px 0;
+padding-top:15px;
+}
+.Newsbtn-wrapper p {
+  margin: 10px 0;
+	color:white;
+	font-size:18px;
+}
+.link {
+	background-color: #239b76;
+}
+.overview {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.message {
+	background-color:#5dca88;
+  padding:15px 40px;
+	cursor:pointer;
+	box-shadow:0 7px #1a7940;
+}
+
+.heaing h3 {
+	font-weight: normal;
+}
+
+.message-wrapper {
+	border-bottom:1px solid #eee;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.message:active {
+	box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer img {
+	width:125px;
+}
+
+footer p {
+  color:#b3aeb5;
+  font-size:12px;
+}
+
+footer {
+  padding-top:30px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+	display: none;
+}
+
+.Trophy img {
+	width:100%;
+}
+
+.Text {
+	background-color:Red;
+}
+.Text p {
+	color:yellow;
+}
+
+.Overviewtxt  {
+	background-color:Red;
+}
+
+.Overviewtxt p {
+	color:yellow;
+}
+
+.heading h2 {
+	font-weight:normal;
+}
+
+.group {
+	float:left;
+	width:25%;
+}
+
+.group-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align:center;
+}
+
+.group-icon {
+  position:relative;
+}
+
+.group-icon p {
+  position:absolute;
+  top:90px;
+  width:100%;
+  color:white;
+}
+
+.txt-contents {
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+}
+
+.Feedbacklogo {
+	float:left;
+}
+
+.Feedback-right {
+	float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.Feedback-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Feedback-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.Feedbackform iframe {
+	margin-top:175px;
+	text-align:center;
+}
+
+.nav {
+	width:100%;
+	height:65px;
+	background-color: rgba(34, 49, 52, 0.9);
+}
+
+nav p{
+	float:left;
+	font-family: arial;
+	color:white;
+	font-size: 24px;
+	line-height: 55px;
+	padding:0px 20px;
+}
+
+nav ul {
+	float:left;
+}
+
+nav ul li {
+	float:left;
+	list-style: none;
+	position:relative;
+}
+
+nav ul li a {
+	font-family: arial;
+	color:black;
+	font-size: 14px;
+	padding: 16px 14px;
+	display: block;
+	text-decoration: none;
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color:rgba(34, 49, 52, 0.9);
+	padding:10px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul li ul li  {
+	width:153px;
+	border-radius: 4px;
+}
+
+nav ul li ul li a {
+	padding: 8px 10px;
+}
+
+nav ul li ul li a:hover {
+	background-color:white ;
+}
+
+.transfer-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(1089536-17478474.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.transfer-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.transfer-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.League-wrapper {
+	padding-top: 75px;
+}
